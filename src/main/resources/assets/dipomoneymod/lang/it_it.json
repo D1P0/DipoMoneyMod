@@ -1,0 +1,37 @@
+{
+	"item.dipomoneymod.cent1": "0.01€",
+	"item.dipomoneymod.cent2": "0.02€",
+	"item.dipomoneymod.cent5": "0.05€",
+	"item.dipomoneymod.cent10": "0.10€",
+	"item.dipomoneymod.cent20": "0.20€",
+	"item.dipomoneymod.cent50": "0.50€",
+	"item.dipomoneymod.euro1": "1.00€",
+	"item.dipomoneymod.euro2": "2.00€",
+	"item.dipomoneymod.euro5": "5.00€",
+	"item.dipomoneymod.euro10": "10.00€",
+	"item.dipomoneymod.euro20": "20.00€",
+	"item.dipomoneymod.euro50": "50.00€",
+	"item.dipomoneymod.euro100": "100.00€",
+	"item.dipomoneymod.euro200": "200.00€",
+	"item.dipomoneymod.euro500": "500.00€",
+	"item.dipomoneymod.wallet": "Portafoglio",
+	"item.dipomoneymod.credit_card": "Carta di credito",
+
+	"block.dipomoneymod.atm": "Sportello ATM",
+
+	"container.dipomoneymod.wallet":  "Portafoglio",
+	"container.dipomoneymod.atm_in": "Input",
+	"container.dipomoneymod.atm_out": "Output",
+	"container.dipomoneymod.loading": "",
+	"container.dipomoneymod.card_not_signed": "La tua carta di credito non è firmata, imposta il nuovo codice PIN! (Conferma col pulsante verde)",
+	"container.dipomoneymod.atm_login": "Benvenuto/a @s! Inserisci il PIN. (Conferma col pulsante verde)",
+	"container.dipomoneymod.atm_balance": "Il tuo bilancio: @s€",
+	"container.dipomoneymod.atm_wrong_password": "PIN errato. Attento, hai solo @s tentativi. (Conferma col pulsante verde)",
+	"container.dipomoneymod.atm_card_blocked": "La carta di credito è stata bloccata dopo 3 tentativi errati",
+	"container.dipomoneymod.atm_error": "Errore. Chiudi lo sportello e riprova più tardi.",
+	"container.dipomoneymod.atm_not_available": "Questo sportello è occupato, riprova più tardi.",
+
+	"entity.minecraft.villager.dipomoneymod.exchanger":  "Scambiatore",
+
+	"itemGroup.dipomoneymod": "Dipo's Money Mod"
+}

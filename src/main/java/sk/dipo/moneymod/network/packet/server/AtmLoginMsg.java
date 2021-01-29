@@ -29,11 +29,11 @@ public class AtmLoginMsg {
 
     public void encode(PacketBuffer buffer) {
         buffer.writeEnumValue(hand);
-        buffer.writeString(pinCode);
+        buffer.writeString(pinCode, 128);
     }
 
     public static AtmLoginMsg decode(PacketBuffer buffer) {
-        return new AtmLoginMsg(buffer.readEnumValue(Hand.class), buffer.readString());
+        return new AtmLoginMsg(buffer.readEnumValue(Hand.class), buffer.readString(128));
     }
 
     public void handle(Supplier<NetworkEvent.Context> ctx) {

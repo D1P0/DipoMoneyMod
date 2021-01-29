@@ -27,11 +27,11 @@ public class AtmSignCardMsg {
 
     public void encode(PacketBuffer buffer) {
         buffer.writeEnumValue(hand);
-        buffer.writeString(pinCode);
+        buffer.writeString(pinCode, 128);
     }
 
     public static AtmSignCardMsg decode(PacketBuffer buffer) {
-        return new AtmSignCardMsg(buffer.readEnumValue(Hand.class), buffer.readString());
+        return new AtmSignCardMsg(buffer.readEnumValue(Hand.class), buffer.readString(128));
     }
 
     public void handle(Supplier<NetworkEvent.Context> ctx) {
